@@ -60,7 +60,7 @@ s0.contourf;
 <img src='fig/s0_surf.png'  width='300'/>
 <img src='fig/s0_contourf.png'  width='300'/>
 
-The subsequent analysis step involves decomposing the shock response spectrum.
+The subsequent analysis step involves decomposing the shock response matrix.
 The 'SVD' method is overridden by a customized function.
 Through the input parameter 'k', the method returns the kth decomposed matrix component.
 The decomposed matrx component can also be visualized by surface and contour plot.
