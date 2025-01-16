@@ -2,12 +2,14 @@
 This algorithm addresses the fundamental challenge in shock testing: measuring the severity of a mechanical shock environment.
 The shock response of devices is generally acknowledged to be nearly impossible to calculate with complete accuracy.
 In this context, the shock response spectrum (SRS) serves as the most widely utilized tool for evaluating shock severity.
-The response of devices under shock conditions is significantly influenced by the temporal characteristics of shock signals, such as effective duration and initial rise time.
-The maximum response of a device can be estimated using the SRS and response spectrum analysis method.
-The algorithm provided in this repository calculates the infimum response of devices, termed the Shock Severity Infimum (SSI).
-The application of the SSI spectrum is straightforward.
-When considering the shock response of devices as a random variable, the SRS and SSI represent the upper and lower limits, respectively.
-If the SSI of the test shock equals or exceeds the SRS of the actual shock, the device can be considered safe.
+The response of devices under shock conditions is significantly influenced by the temporal characteristics of shock signals.
+Therefore, the SRS is not a perfect specification tool.
+In numerous cases, devices that survive laboratory shock testing still fail during actual missions.
+
+When considering the shock response of devices as a random variable, the maximum response can be estimated using the SRS and response spectrum analysis method.
+The algorithm provided in this repository calculates the infimum response of devices, which is termed the Shock Severity Infimum (SSI).
+For shock responses characterized as random variables, the SRS and SSI represent the upper and lower bounds, respectively.
+When the SSI of the test shock equals or exceeds the SRS of the actual shock, the device can be deemed safe under the given conditions.
 Please read [the paper](https://royalsocietypublishing.org/doi/10.1098/rspa.2019.0694#:~:text=A%20metric%20is%20necessary%20for,Biot%20in%201932%20%5B4%5D.) for more details.
 
 ## Disclaimer
