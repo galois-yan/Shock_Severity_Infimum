@@ -12,9 +12,6 @@ For shock responses characterized as random variables, the SRS and SSI represent
 When the SSI of the test shock equals or exceeds the SRS of the actual shock, the device can be deemed safe under the given conditions.
 Please read [the paper](https://royalsocietypublishing.org/doi/10.1098/rspa.2019.0694#:~:text=A%20metric%20is%20necessary%20for,Biot%20in%201932%20%5B4%5D.) for more details.
 
-## Disclaimer
-This software is published for academic and non-commercial use only.
-
 ## Usage
 There are two classes in this repository.
 The 'acc' class contains time and data information within its properties that describes an acceleration measurement.
